@@ -1,9 +1,24 @@
+/*.status-bar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+} 숙제 but!!텍스트가 겹침<-문제발생*/
 .nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #f9f9fa;
-  padding: 20px 40px;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(185, 97, 97, 0.3);
 }
 
 .nav__list {
   display: flex;
   justify-content: space-between;
+}
+.nav__link {
+  color: #2e363e;
 }
